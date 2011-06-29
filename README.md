@@ -29,6 +29,12 @@ in a single call as well as sampling.  By default, sampling is disabled.
      
 Run the above script:  `groovy -cp groovy-statsdclient.jar  script.groovy`
 
+Downloading
+-----------
+A pre-built jar can be downloaded by clicking on the 'Downloads' link of the github page:
+http://github.com/joemiller/groovy-statsdclient
+
+
 Building
 --------
 1. Download and install gradle
@@ -37,6 +43,7 @@ Building
 4. Build the jar using: `gradle jar`
 
 You will find the built jar in `./build/libs`.
+
 
 Todo / Future
 -------------
